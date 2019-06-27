@@ -1,0 +1,30 @@
+{
+  "name": "joi-object-id-extention",
+  "version": "1.0.0",
+  "description": "JOI extention for mongo object ids",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test lab -v -t 90"
+  },
+  "keywords": [
+    "joi",
+    "extention"
+  ],
+  "author": "Shubham Zanwar",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "@hapi/lab": "^19.1.0",
+    "chai": "^4.2.0",
+    "husky": "^2.4.1",
+    "sinon": "^7.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
+  }
+}
