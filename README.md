@@ -1,5 +1,4 @@
 # Joi-object-id-extention
----
 
 This super cool package is a JOI extension that enables you to verify objectIds (like mongo document ids)
 
